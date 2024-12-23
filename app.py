@@ -3,3 +3,7 @@ def is_even(num : int) -> bool:
         return True
     return False
 
+def is_odd(num : int) -> bool:
+    if num % 2 == 1:
+        return True
+    return False
