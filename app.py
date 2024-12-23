@@ -8,7 +8,7 @@ def is_odd(num : int) -> bool:
         return True
     return False
 
-def greaterten(num : int) -> bool:
+def greater_ten(num : int) -> bool:
     if num > 10:
         return True
     return False
