@@ -1,14 +1,8 @@
-import { useState } from "react";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import "./styles/App.css"
 
 function App() {
-   const [count, setCount] = useState(0);
-
-  const [open, setOpen ] = useState(false);
-
-
   return (
     <>
       <Navbar/>
