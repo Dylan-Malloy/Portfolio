@@ -11,8 +11,15 @@ section {
 }
 
 #navbar {
-  background-color: aquamarine;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-left {
+    display: flex;
+}
+.navbar-right {
+    display: flex;
+    gap: 8px;
 }
