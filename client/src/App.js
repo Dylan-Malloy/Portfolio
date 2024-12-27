@@ -7,11 +7,11 @@ function App() {
     <>
       <Navbar />
 
-      <section id="hero">
+      <Hero />
+
+      <section>
         <div className="row">
           <div className="column scrollable">
-            <Hero />
-
             <section id="about">
               <h1>About</h1>
               <p>Content for the about section...</p>
