@@ -7,9 +7,9 @@ function Navbar() {
           <p>Logo</p>
         </div>
         <div className="navbar-right">
-          <p>About Me</p>
-          <p>Projects</p>
-          <p>Contacts</p>
+          <a href="#about">About Me</a>  
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contacts</a>
         </div>
       </div>
     </>
