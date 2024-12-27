@@ -5,7 +5,7 @@ const Hero = () => {
     <>
       <section id="hero">
         <div className="row">
-          <div className="column center">
+          <div className="column center dots">
             <h1 className="blue-1">Hey, I'm Dylan</h1>
             <p className="text">
               I'm a First-year Computer Science student at Miami University with
