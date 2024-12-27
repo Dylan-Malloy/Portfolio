@@ -17,6 +17,11 @@
   color: var(--accent);
 }
 
+.icon {
+  width: 36px;
+  height: 36px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -94,6 +99,7 @@ a {
   padding: 4px;
   padding-left: 8px;
   padding-right: 8px;
+  width: fit-content;
 }
 
 .button-primary {
