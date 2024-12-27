@@ -12,7 +12,6 @@
   color: var(--blue-1);
 }
 
-
 .accent {
   color: var(--accent);
 }
@@ -20,6 +19,7 @@
 .icon {
   width: 36px;
   height: 36px;
+  margin: 8px;
 }
 
 html {
@@ -41,9 +41,7 @@ section {
   padding: 16px;
 }
 
-
-h1, h2, h3 {
-  line-height: 90%;
+h3 {
   margin: 0;
 }
 
@@ -57,6 +55,7 @@ a {
 }
 
 .row {
+  gap: 8px;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -70,8 +69,8 @@ a {
 }
 
 .column-3 {
-    max-width: calc(100vw / 3);
-    padding: 16px;
+  max-width: calc(100vw / 3);
+  padding: 16px;
 }
 
 .center {
@@ -95,7 +94,7 @@ a {
   border-radius: 4px;
   font-size: 16px;
   background-color: var(--neutral);
-  cursor: pointer;
+
   padding: 4px;
   padding-left: 8px;
   padding-right: 8px;
@@ -107,6 +106,7 @@ a {
   color: var(--neutral);
   border-color: var(--blue-1);
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .button-primary:hover {
@@ -115,9 +115,18 @@ a {
 
 .button-secondary {
   color: var(--blue-1);
+  cursor: pointer;
   transition: 0.5s;
 }
 
 .button-secondary:hover {
   background-color: white;
+}
+
+.button-disabled {
+  cursor: default;
+  pointer-events: none;
+  color: gray;
+  border: 1px solid gray;
+  background-color: lightgray;
 }
