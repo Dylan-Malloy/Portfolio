@@ -3,33 +3,64 @@ html {
     scroll-behavior: smooth;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Poppins";
   margin: 0;
   padding: 0;
 }
 
-section {
-  height: 90vh;
+h1 {
+  line-height: 90%;
+  margin: 0;
 }
-a {
-    text-decoration: none;
-    color: black;
+
+.text {
+  color: gray;
 }
-#navbar {
-    background-color: lightblue;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+.row {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
-.navbar-left {
-    display: flex;
-    padding-left: 16px;
-    
+
+.column {
+  flex: 1; /* Distributes space equally */
+  overflow: auto; /* Allows scrolling where needed */
+  max-width: 50%;
+  box-sizing: border-box;
 }
-.navbar-right {
-    display: flex;
-    padding-right: 16px;
-    gap: 12px;
-    
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollable {
+  overflow-y: auto; /* Enables vertical scrolling */
+}
+
+.sticky {
+  position: sticky;
+  top: 0; /* Makes it stick to the top of the viewport */
+  height: 100%; /* Ensure it spans the full height */
+  background: #f5f5f5; /* Optional: Add a background for distinction */
+  padding: 20px; /* Optional: Padding for content spacing */
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    flex: 1 1 100%; /* Makes each column take up full width */
+    max-width: 100%; /* Limits column width to 100% */
+  }
+}
+
+.left {
+  text-align: left;
 }
