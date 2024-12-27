@@ -18,9 +18,6 @@ function App() {
 
       <Contacts />
 
-      <section id="contact">
-        
-      </section>
     </>
   );
 }
