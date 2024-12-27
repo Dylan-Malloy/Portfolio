@@ -1,12 +1,23 @@
 #hero {
-    height: calc(100vh - 52px);
+  height: calc(100vh - 52px);
 }
 
 #box {
-    background-color: gray;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
+  background-color: #e5e5f7;
 
+  background-image: radial-gradient(circle at center center, var(--blue-1), #e5e5f7),
+    repeating-radial-gradient(
+      circle at center center,
+      var(--blue-1),
+      var(--blue-1),
+      32px,
+      transparent 64px,
+      transparent 32px
+    );
+  background-blend-mode: multiply;
+  border-radius: 16px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
