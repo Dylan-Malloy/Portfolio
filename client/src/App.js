@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 import "./styles/App.css";
 
 function App() {
@@ -13,9 +14,7 @@ function App() {
 
       </section>
 
-      <section id="projects">
-
-      </section>
+      <Projects/>
 
       <section id="contact">
         
