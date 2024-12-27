@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import About from "./components/About";
 import "./styles/App.css";
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
       <Navbar />
 
       <Hero />
+
+      <About />
 
       <section id="about">
 
