@@ -1,44 +1,46 @@
 import React from "react";
+import Gear from "../images/Gear.png";
+import Lightbulb from "../images/Lightbulb.png";
+import People from "../images/People.png";
 
 const About = () => {
   return (
     <>
       <section id="about">
-        <div className="center">
+        <div className="center blue-1">
           <h1>About Me</h1>
         </div>
         <div className="row">
           <div className="column column-3">
-            <p>ICON</p>
-            <h3>Curious</h3>
+            <img src={Lightbulb} className="icon" />
+            <h3 className="blue-1">Curious</h3>
             <p className="text">
-              I have always asked many questions throughout my life. When I am
-              passionate about something, I always want to know more, and with
-              Computer Science, my curiosity is never satisfied.
+              Curiosity has always been a core part of who I am, driving me to
+              ask questions and constantly seek deeper understanding. In
+              Computer Science, this desire to learn is continually fueled by
+              new technologies and complex challenges.
             </p>
           </div>
           <div className="column column-3">
-            <p>ICON</p>
-            <h3>Team Player</h3>
+            <img src={People} className="icon" />
+            <h3 className="blue-1">Collaboration</h3>
             <p className="text">
-              For a decent part of my life, I was always a person who just
-              wanted to do my part and nothing more. This was always something
-              that affected me, and eventually I realized life is so much more
-              than the bare minimum. I now always try to keep in touch with my
-              team in projects, and I attempt to keep everyone on track.
+              While I once focused solely on completing my tasks independently,
+              I now recognize the value of teamwork and strive to maintain clear
+              communication and ensure everyone is aligned on project goals.
+              Collaboration has become essential to my approach in both academic
+              and professional settings.
             </p>
           </div>
           <div className="column column-3">
-            <p>ICON</p>
-            <h3>Inspired</h3>
+            <img src={Gear} className="icon" />
+            <h3 className="blue-1">Inspired</h3>
             <p className="text">
-              When I was younger, what I wanted to be was a Statistician.
-              Numbers have always fascinated me, and I enjoyed math a ton. This
-              all changed in my Junior year, where I first caught glimpses of
-              what Computer Science was like. It hooked me in instantly, and I
-              owe a lot of that to my brother, who graduated from the same
-              university that I am in right now. He helped a ton with my love
-              for Computer Science, and I don't think I'd be here without him.
+              My initial fascination with numbers led me toward statistics, but
+              it was discovering Computer Science in high school that truly
+              sparked my passion. My brother, a graduate of my current
+              university, played a key role in inspiring me to pursue this
+              field.
             </p>
           </div>
         </div>

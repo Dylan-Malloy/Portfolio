@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Contacts from "./components/Contacts";
 import "./styles/App.css";
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <About />
 
       <Projects/>
+
+      <Contacts />
 
       <section id="contact">
         
