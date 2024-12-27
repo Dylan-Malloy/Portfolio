@@ -9,29 +9,16 @@ function App() {
 
       <Hero />
 
-      <section>
-        <div className="row">
-          <div className="column scrollable">
-            <section id="about">
-              <h1>About</h1>
-              <p>Content for the about section...</p>
-            </section>
+      <section id="about">
 
-            <section id="projects">
-              <h1>Projects</h1>
-              <p>Content for the projects section...</p>
-            </section>
+      </section>
 
-            <section id="contact">
-              <h1>Contact</h1>
-              <p>Content for the contact section...</p>
-            </section>
-          </div>
-          <div className="column sticky">
-            <h1>Right Column</h1>
-            <p>This content stays fixed while the left side scrolls.</p>
-          </div>
-        </div>
+      <section id="projects">
+
+      </section>
+
+      <section id="contact">
+        
       </section>
     </>
   );
