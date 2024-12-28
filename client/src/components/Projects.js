@@ -17,8 +17,8 @@ const Projects = () => {
             <img src={Weather} alt="Wether" className="icon" />
             <h3 className="blue-1">Weather App</h3>
             <p className="text">
-              This is a weather app that uses a weather API to display weather
-              data on a website
+              A python app that uses Weather API to show temperature, along with
+              the maximum and minimum temperature within the week.
             </p>
             <a
               className="button button-primary"
